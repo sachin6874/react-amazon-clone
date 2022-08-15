@@ -1,0 +1,48 @@
+.header{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem ;
+    background-color: black;
+    color: white;
+}
+.header-logo{
+    display: flex;
+}
+.logo{
+    font-size: 3rem;
+    color: orange;
+    margin: .8rem 1rem ;
+}
+.header-search{
+    display: flex;
+}
+.header-search input{
+    width: 50vw;
+}
+.search-icon{
+    background-color: orange;
+    color: black;
+    padding: .5rem .8rem ;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+  
+}
+.header-nav-signin{
+    padding: 0 2rem ;
+}
+.header-nav-signin h4{
+    margin: 0;
+}
+.header-nav-your-shop{
+    padding: 0 2rem ;
+}
+.header-nav-your-shop h4{
+    margin: 0;
+}
+.header-nav-cart{
+    padding: 0 2rem ;
+}
